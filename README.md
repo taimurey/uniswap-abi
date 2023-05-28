@@ -1,4 +1,4 @@
-## Uniswap ABI Files
+##Uniswap ABI Files
 
 This repository contains the ABI (Application Binary Interface) files for Uniswap v2 and Uniswap v3 smart contracts. The ABIs define the interface and function signatures of the contracts, allowing you to interact with them programmatically.
 
@@ -58,6 +58,8 @@ If you find any issues with the ABI files or would like to suggest improvements,
 This repository is licensed under the [MIT License](LICENSE).
 ```
 
-Make sure to replace `https://github.com/taimurey/uniswap-abi` with the actual URL of your repository where you host the ABI files. You can also modify the content according to your specific needs or add additional instructions if required.
+Make sure to replace `https://github.com/taimurey/uniswap-abi/` with the actual URL of your repository where you host the ABI files. You can also modify the content according to your specific needs or add additional instructions if required.
 
 Remember to include the actual file paths in the import statements within your code, pointing to the location where you place the ABI files. Additionally, replace the placeholder contract addresses (`0xUniswapV2Router02
+
+ContractAddress`, `0xUniswapV2PairContractAddress`, etc.) with the correct contract addresses you intend to interact with.
